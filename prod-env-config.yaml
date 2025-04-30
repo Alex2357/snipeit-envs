@@ -1,4 +1,4 @@
 env: prod
-snipeitImageTag: "v8.0.3"
+snipeitImageTag: "v8.0.4"
 mariadbImageTag: "11.1.0-debian-11-r36"
 snipeitUrl: "http://localhost:8068"
