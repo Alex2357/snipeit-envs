@@ -26,6 +26,7 @@ Each environment file must have the following structure:
 env: <environment-name>
 snipeitImageTag: "<snipeit-docker-image-tag>"
 mariadbImageTag: "<mariadb-docker-image-tag>"
+snipeitHost: "<environment-name>.snipeit" # subdomain when you access it must have 42!!!
 ```
 
 ### Example
@@ -34,6 +35,7 @@ mariadbImageTag: "<mariadb-docker-image-tag>"
 env: dev
 snipeitImageTag: "v8.0.4"
 mariadbImageTag: "11.1.0-debian-11-r36"
+snipeitHost: "<environment-name>.snipeit" # subdomain when you access it must have 42!!!
 ```
 
 ## How to Add or Update an Environment
