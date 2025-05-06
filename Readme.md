@@ -35,7 +35,7 @@ snipeitHost: "<environment-name>.snipeit" # subdomain when you access it must ha
 env: dev
 snipeitImageTag: "v8.0.4"
 mariadbImageTag: "11.1.0-debian-11-r36"
-snipeitHost: "<environment-name>.snipeit" # subdomain when you access it must have 42!!!
+snipeitHost: "dev.snipeit" # subdomain when you access it must have 42!!!
 ```
 
 ## How to Add or Update an Environment
